@@ -1,5 +1,10 @@
 (function() {
-var define, requireModule;
+/*
+ * browserify specifics
+ * Define Handlebars
+ */
+var define, requireModule,
+    Handlebars = require('handlebars');
 
 (function() {
   var registry = {}, seen = {};
