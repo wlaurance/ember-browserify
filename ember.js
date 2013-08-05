@@ -19,6 +19,9 @@ Ember Debug
 if ('undefined' === typeof Ember) {
   Ember = {};
 
+  Ember.imports = {};
+  Ember.imports.jQuery = require('jquery');
+
   if ('undefined' !== typeof window) {
     window.Em = window.Ember = Em = Ember;
   }
