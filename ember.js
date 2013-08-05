@@ -30988,3 +30988,6 @@ Ember
 
 
 })();
+
+//BROWSERIFY
+module.exports = Ember;
