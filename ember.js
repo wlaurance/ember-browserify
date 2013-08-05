@@ -1,6 +1,9 @@
 // Version: v1.0.0-rc.6.1
 // Last commit: 2a9ce26 (2013-07-25 18:13:33 -0400)
 
+//Browserify
+//Give Handlebars scope
+var Handlebars = require('handlebars');
 
 (function() {
 /*global __fail__*/
