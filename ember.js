@@ -23,7 +23,7 @@ if ('undefined' === typeof Ember) {
   Ember = {};
 
   Ember.imports = {};
-  Ember.imports.jQuery = require(__dirname + '/jquery');
+  Ember.imports.jQuery = require('jquery2');
 
   if ('undefined' !== typeof window) {
     window.Em = window.Ember = Em = Ember;
