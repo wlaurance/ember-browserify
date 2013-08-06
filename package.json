@@ -21,7 +21,6 @@
     "url": "https://github.com/wlaurance/ember-browserify/issues"
   },
   "dependencies": {
-    "handlebars": "~1.0.12",
     "jquery2": "~2.0.3-a",
     "ember-handlebars-browserify": "~1.0.0-rc.4"
   },
