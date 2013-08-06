@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "handlebars": "~1.0.12",
-    "jquery2": "~2.0.3-a"
+    "jquery2": "~2.0.3-a",
+    "ember-handlebars-browserify": "~1.0.0-rc.4"
   },
   "devDependencies": {
     "mocha": "~1.12.0",

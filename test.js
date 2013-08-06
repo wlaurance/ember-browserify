@@ -17,9 +17,3 @@ describe('browserifying the ember object', function() {
 
 });
 
-describe('test the handlebars thing', function() {
-  it('should have a method named template', function() {
-    var h = require('./handlebars-1.0.0-rc.4');
-    assert.equal('function', typeof h.template);
-  });
-});

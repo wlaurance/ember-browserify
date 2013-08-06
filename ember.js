@@ -3,7 +3,7 @@
 
 //Browserify
 //Give Handlebars scope
-var Handlebars = require('./handlebars-1.0.0-rc.4');
+var Handlebars = require('ember-handlebars-browserify');
 
 (function() {
 /*global __fail__*/
