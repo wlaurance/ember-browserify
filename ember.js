@@ -5,6 +5,9 @@
 //Give Handlebars scope
 var Handlebars = require('ember-handlebars-browserify');
 
+//Don't allow Ember out into global scope
+var Ember;
+
 (function() {
 /*global __fail__*/
 
